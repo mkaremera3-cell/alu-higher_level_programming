@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-# Fetches https://alu-intranet.hbtn.io/status using requests
+"""Fetches https://alu-intranet.hbtn.io/status using requests."""
 import requests
+
 r = requests.get('https://alu-intranet.hbtn.io/status')
 print("Body response:")
 print("\t- type: {}".format(type(r.text)))
