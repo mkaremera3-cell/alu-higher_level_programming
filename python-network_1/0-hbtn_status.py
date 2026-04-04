@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fetches https://alu-intranet.hbtn.io/status using urllib."""
+"""Fetches a URL and displays the body response info."""
 import urllib.request
 
 with urllib.request.urlopen('https://alu-intranet.hbtn.io/status') as r:
