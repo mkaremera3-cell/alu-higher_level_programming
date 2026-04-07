@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""Sends a request to a URL and prints error code if status >= 400."""
 import requests
 import sys
 
