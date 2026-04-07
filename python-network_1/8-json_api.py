@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Sends a POST request and displays JSON result or error message."""
 import requests
 import sys
 

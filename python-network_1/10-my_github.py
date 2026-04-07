@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Uses GitHub API with Basic Auth to display the user's GitHub id."""
 import requests
 import sys
 
